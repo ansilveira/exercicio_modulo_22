@@ -10,12 +10,17 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
-    list-style: none;
+    list-style: none;   
+    overflow-x: hidden; 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 960px;
-    width: 100%; 
+    width: 100%;  
     margin: 0 auto;
 
     @media (max-width: 640px) {
